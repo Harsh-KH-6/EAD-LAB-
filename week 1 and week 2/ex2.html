@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Timetable</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background: #f8fafc;
+        margin: 0;
+        padding: 0;
+    }
+    h1 {
+        text-align: center;
+        color: #2c3e50;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+    }
+    table {
+        width: 80%;
+        margin: 0 auto 40px auto;
+        border-collapse: collapse;
+        background: #fff;
+        box-shadow: 0 4px 16px rgba(44,62,80,0.08);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    th, td {
+        border: 1px solid #e0e0e0;
+        padding: 14px 18px;
+        text-align: left;
+        font-size: 16px;
+    }
+    th {
+        background: #007bff;
+        color: #fff;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+    }
+    tr:nth-child(even) {
+        background: #f6faff;
+    }
+    tr:hover {
+        background: #e3f0ff;
+        transition: background 0.2s;
+    }
+    td {
+        color: #333;
+    }
+    /* Special styling for breaks */
+    td:contains('Break'), td:contains('Lunch Break') {
+        color: #888;
+        font-style: italic;
+        background: #f9f9f9;
+    }
+</style>
+</head>
+<body>
+   <h1>My Daily Class Timetable (Thursday, July 24, 2025)</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Time Slot</th>
+        <th>Subject</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>9:00 AM - 10:00 AM</td>
+        <td>Mathematics (Algebra)</td>
+      </tr>
+      <tr>
+        <td>10:00 AM - 11:00 AM</td>
+        <td>Science (Physics)</td>
+      </tr>
+      <tr>
+        <td>11:00 AM - 11:30 AM</td>
+        <td style="color:#888;font-style:italic;background:#f9f9f9;">Break</td>
+      </tr>
+      <tr>
+        <td>11:30 AM - 12:30 PM</td>
+        <td>English Literature</td>
+      </tr>
+      <tr>
+        <td>12:30 PM - 1:30 PM</td>
+        <td>Computer Science (Programming)</td>
+      </tr>
+      <tr>
+        <td>1:30 PM - 2:30 PM</td>
+        <td style="color:#888;font-style:italic;background:#f9f9f9;">Lunch Break</td>
+      </tr>
+      <tr>
+        <td>2:30 PM - 3:30 PM</td>
+        <td>History</td>
+      </tr>
+      <tr>
+        <td>3:30 PM - 4:30 PM</td>
+        <td>Physical Education</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

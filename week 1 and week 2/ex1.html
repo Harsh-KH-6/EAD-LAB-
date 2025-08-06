@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+    <title> STUDENT LOGIN FORM </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        form {
+            background: #fff;
+            max-width: 400px;
+            margin: 40px auto;
+            padding: 30px 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="number"],
+        input[type="email"] {
+            width: 100%;
+            padding: 8px 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        fieldset {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 10px 15px;
+            margin-bottom: 15px;
+        }
+        legend {
+            font-weight: bold;
+        }
+        input[type="radio"] {
+            margin-right: 6px;
+        }
+        input[type="submit"] {
+            background: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<form>
+    <label for="student name"> STUDENT NAME </label>
+    <input type="text" name="student name"  required>
+    <br><br>
+    <label for="roll number"> ROLL NUMBER</label>
+    <input type="number" name="roll number"  required>
+    <br><br>
+    <label for="email">EMAIL</label>
+    <input type="email" name="email"  required>
+    <br><br>
+    <label for="phone number">PHONE NUMBER</label>
+    <input type="number" name="phone number"  required>
+    <br><br>
+    <fieldset>
+    <legend>Select your Gender</legend> 
+    <input type="radio" id="html" name="gender" value="Male">
+    <label for="html">Male</label><br>
+    <input type="radio" id="css" name="gender" value="Female">
+    <label for="css">Female</label><br>
+    </fieldset> <br>
+    <input type="submit" value="Login!">
+</form>
