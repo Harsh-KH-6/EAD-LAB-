@@ -18,4 +18,10 @@
 
 --Week 4 ( Calculator using HTML+CSS+JS ) 14-08-2025
 
---Week 5 ( Bootstrap Programs) 21-08-2025
+--Week 5 & 6 ( Bootstrap Programs) 21-08-2025
+
+--Week 7 ( React Programs ) 
+
+1. Counter Application
+2. Password Strength Checker
+3. Timer and Fetching Data from API
