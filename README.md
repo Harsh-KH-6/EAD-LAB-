@@ -20,7 +20,7 @@
 
 --Week 5 & 6 ( Bootstrap Programs) 21-08-2025
 
---Week 7 ( React Programs ) 18-09-2025 - 9-10-2025
+--Week 7 ( React Programs ) 18-09-2025  -  9-10-2025
 
 1. Counter Application
 2. Password Strength Checker
