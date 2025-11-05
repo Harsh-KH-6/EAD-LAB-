@@ -28,4 +28,6 @@
 
 --Week 9 (JWT) 16-10-2025
 
---Week 10 (Mongo DB Replica Set) 
+--Week 10 (Mongo DB Crud operations & Replica Set) 23-10-2025
+
+--Week 11 (Google Maps Integration) 30-10-2025
